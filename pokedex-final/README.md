@@ -21,20 +21,20 @@ Tener a la mano el correo de la universidad.
 4. Verificar la condición de estudiante con el código enviado al correo institucional.
 5. Completar el perfil (nombre, país, teléfono) y aceptar los términos.
 
-> 📸 *Capturas: página de Azure for Students, verificación, perfil*
+
 
 ### 3. Ingreso al portal
 1. Ir a <https://portal.azure.com>.
 2. En **Suscripciones**, confirmar que aparece *Azure for Students*.
 
-> 📸 *Captura: suscripción activa*
+
 
 ### 4. Grupo de recursos
 1. Buscar **Resource groups** → **Create**.
 2. Suscripción *Azure for Students*, nombre `rg-pokedex`, región más cercana disponible.
 3. **Review + create → Create**.
 
-> 📸 *Captura: grupo de recursos creado*
+
 
 ### 5. Cuenta de GitHub
 Crear una cuenta en <https://github.com/signup> (si no existe) para el repositorio `pokedex`.

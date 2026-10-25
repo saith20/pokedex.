@@ -52,7 +52,7 @@ git push -u origin main
 4. **Go to resource**: copiar la **URL** (`https://xxxx.azurestaticapps.net`).
 5. En el recurso: **Overview → Manage deployment token** → copiar el token.
 
-> 📸 *Capturas: formulario Basics, URL y botón del token (no mostrar el token completo)*
+
 
 ## 6. Conectar GitHub con Azure
 1. En GitHub: repositorio `pokedex` → **Settings → Secrets and variables → Actions → New repository secret**.
@@ -60,7 +60,7 @@ git push -u origin main
 3. Pestaña **Actions** → seleccionar el flujo → **Run workflow** (o hacer un nuevo `git push`).
 4. Esperar el ✔ verde. El flujo hace: `npm ci` → `ng build --configuration production` → publica `dist/pokedex-angular`.
 
-> 📸 *Capturas: secreto creado y workflow en verde*
+
 
 Abrir la URL: debe cargar el listado de 151 Pokémon.
 
@@ -89,7 +89,7 @@ Abrir la URL: debe cargar el listado de 151 Pokémon.
 1. <https://securityheaders.com/> → pegar la URL → **Scan**.
 2. Meta: **A+**.
 
-> 📸 *Captura: resultado del escaneo*
+
 
 ### Auditorías adicionales (opcional, +5 puntos)
 - **SSL Labs:** <https://www.ssllabs.com/ssltest/>
